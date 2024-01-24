@@ -1,0 +1,1 @@
+{"ssl":false,"host":"airbyte-destination-pg-one.cu09xoem4h3x.us-east-2.rds.amazonaws.com","port":5432,"schema":"public","database":"airbytedestination","password":"3PpZJ!29CQCnDSvddvkZ","ssl_mode":{"mode":"disable"},"username":"root","tunnel_method":{"tunnel_method":"NO_TUNNEL"}}

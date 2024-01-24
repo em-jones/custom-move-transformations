@@ -1,0 +1,17 @@
+config:
+  partial_parse: true
+  printer_width: 120
+  send_anonymous_usage_stats: false
+  use_colors: true
+normalize:
+  outputs:
+    prod:
+      dbname: airbytedestination
+      host: airbyte-destination-pg-one.cu09xoem4h3x.us-east-2.rds.amazonaws.com
+      pass: 3PpZJ!29CQCnDSvddvkZ
+      port: 5432
+      schema: public
+      threads: 8
+      type: postgres
+      user: root
+  target: prod
